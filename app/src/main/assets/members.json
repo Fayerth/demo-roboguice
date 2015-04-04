@@ -1,0 +1,122 @@
+[
+    {
+        "id": "mem-001",
+        "name": "Clark",
+        "surname": "Kent",
+        "teamId": "tm-02",
+        "skills": "Superman",
+        "picture": 0
+    },
+    {
+        "id": "mem-002",
+        "name": "Tony",
+        "surname": "Stark",
+        "teamId": "tm-01",
+        "skills": "Ironman",
+        "picture": 0
+    },
+    {
+        "id": "mem-003",
+        "name": "Dick",
+        "surname": "Grayson",
+        "teamId": "tm-04",
+        "skills": "Nightwing",
+        "picture": 0
+    },
+    {
+        "id": "mem-004",
+        "name": "Rocket",
+        "surname": "Raccoon",
+        "teamId": "tm-05",
+        "skills": "Wanted on over 50 charges of vehicular theft and escape from lock up.",
+        "picture": 0
+    },
+    {
+        "id": "mem-005",
+        "name": "Nick",
+        "surname": "Fury",
+        "teamId": "tm-03",
+        "skills": "Director of S.H.I.E.L.D.",
+        "picture": 0
+    },
+    {
+        "id": "mem-006",
+        "name": "Bruce",
+        "surname": "Banner",
+        "teamId": "tm-01",
+        "skills": "Hulk SMASH!",
+        "picture": 0
+    },
+    {
+        "id": "mem-007",
+        "name": "James",
+        "surname": "Bond",
+        "teamId": "tm-06",
+        "skills": "Bond. James Bond.",
+        "picture": 0
+    },
+    {
+        "id": "mem-008",
+        "name": "Steve",
+        "surname": "Rogers",
+        "teamId": "tm-01",
+        "skills": "Captain America",
+        "picture": 0
+    },
+    {
+        "id": "mem-009",
+        "name": "Bruce",
+        "surname": "Wayne",
+        "teamId": "tm-02",
+        "skills": "I am Batman!",
+        "picture": 0
+    },
+    {
+        "id": "mem-010",
+        "name": "Rachel",
+        "surname": "Roth",
+        "teamId": "tm-04",
+        "skills": "Raven",
+        "picture": 0
+    },
+    {
+        "id": "mem-011",
+        "name": "Hal",
+        "surname": "Jordan",
+        "teamId": "tm-02",
+        "skills": "In brightest day, in blackest night / No evil shall escape my sight / Let those who worship evil's might / Beware my power, Green Lantern's light!",
+        "picture": 0
+    },
+    {
+        "id": "mem-012",
+        "name": "Phil",
+        "surname": "Coulson",
+        "teamId": "tm-03",
+        "skills": "I'm Agent Phil Coulson with the Strategic Homeland Intervention, Enforcement and Logistics Division.",
+        "picture": 0
+    },
+    {
+        "id": "mem-013",
+        "name": "Barry",
+        "surname": "Allen",
+        "teamId": "tm-02",
+        "skills": "The Flash",
+        "picture": 0
+    },
+    {
+        "id": "mem-014",
+        "name": "Peter",
+        "surname": "Quill",
+        "teamId": "tm-05",
+        "skills": "There's one other name you may know me by. Star-Lord.",
+        "picture": 0
+    },
+    {
+        "id": "mem-015",
+        "name": "Gareth",
+        "surname": "Mallory",
+        "teamId": "tm-06",
+        "skills": "With pleasure, M. With pleasure.",
+        "picture": 0
+    }
+]
