@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.seemingamusing.demo.roboguice.ui.detail.DetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/profile"
+                android:contentDescription="@string/cd_profile_picture"
+                style="@style/Picture" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_toRightOf="@id/profile"
+                android:layout_toEndOf="@id/profile"
+                style="@style/ProfileText" />
+
+            <TextView
+                android:id="@+id/surname"
+                android:layout_toRightOf="@id/profile"
+                android:layout_toEndOf="@id/profile"
+                android:layout_below="@id/name"
+                style="@style/ProfileText" />
+
+            <TextView
+                android:id="@+id/team_name"
+                android:layout_toRightOf="@id/profile"
+                android:layout_toEndOf="@id/profile"
+                android:layout_below="@id/surname"
+                style="@style/ProfileText" />
+
+            <TextView
+                android:id="@+id/skills"
+                android:layout_toRightOf="@id/profile"
+                android:layout_toEndOf="@id/profile"
+                android:layout_below="@id/team_name"
+                style="@style/ProfileText" />
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_below="@id/skills"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:text="@string/btn_update" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <fragment
+        android:name="com.seemingamusing.demo.roboguice.ui.common.FooterFragment"
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/frag_footer" />
+
+</LinearLayout>

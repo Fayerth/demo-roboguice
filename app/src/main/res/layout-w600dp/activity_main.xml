@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+    <FrameLayout
+        android:id="@+id/teams_listing_container"
+        android:layout_width="200dp"
+        android:layout_height="match_parent" />
+
+    <fragment
+        android:name="com.seemingamusing.demo.roboguice.ui.common.FooterFragment"
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_toRightOf="@+id/teams_listing_container"
+        android:layout_toEndOf="@+id/teams_listing_container"
+        android:layout_alignParentBottom="true"
+        tools:layout="@layout/frag_footer" />
+
+    <fragment
+        android:name="com.seemingamusing.demo.roboguice.ui.main.MembersFragment"
+        android:id="@+id/members_listing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_toRightOf="@+id/teams_listing_container"
+        android:layout_toEndOf="@+id/teams_listing_container"
+        android:layout_above="@id/footer"
+        tools:layout="@layout/frag_members" />
+
+</RelativeLayout>
