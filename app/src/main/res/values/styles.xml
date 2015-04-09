@@ -3,6 +3,8 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:textViewStyle">@style/defaultTextView</item>
         <item name="android:listViewStyle">@style/defaultListView</item>
+        <item name="android:buttonBarStyle">@style/defaultButtonBar</item>
+        <item name="android:buttonBarButtonStyle">@style/defaultButtonBarButton</item>
     </style>
 
     <style name="defaultListView">
@@ -13,6 +15,15 @@
     <style name="defaultTextView">
         <item name="android:padding">10dp</item>
         <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="defaultButtonBar">
+        <item name="android:background">#e3e3e3</item>
+    </style>
+
+    <style name="defaultButtonBarButton" parent="Widget.AppCompat.ActionButton">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:textColor">#3e3e3e</item>
     </style>
 
     <style name="Picture">
