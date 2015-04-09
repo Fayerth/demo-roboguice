@@ -68,17 +68,16 @@ public class TeamMembersAdapter extends BaseAdapter {
 
     @Override
     public View getView(final int position, final View convertView, final ViewGroup parent) {
-        final View view;
+        final TextView view;
         if (convertView == null) {
-            view = mInflater.inflate(R.layout.item_member, parent, false);
+            view = (TextView) mInflater.inflate(R.layout.item_member, parent, false);
         } else {
-            view = convertView;
+            view = (TextView) convertView;
         }
 
         final TeamMember member = getItem(position);
-        final TextView name = (TextView) view.findViewById(R.id.name);
-        name.setText(member.toString());
-        view.findViewById(R.id.btn_details).setOnClickListener(new View.OnClickListener() {
+        view.setText(member.toString());
+        view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View v) {
                 DetailsActivity.startDetailsActivity(mContext, member.getId());
